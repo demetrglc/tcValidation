@@ -77,6 +77,11 @@ class _TcValidationState extends State<TcValidation> {
                   ));
                 } else {
                   tcDogrula(tc1.text);
+                  onuncuHane = null;
+                  onbirinciHane = null;
+                  sonucTekCarpma = null;
+                  sonucTekToplam = 0;
+                  sonucCiftToplam = 0;
                 }
               },
               child: const Text("Tc Doğrula")),
